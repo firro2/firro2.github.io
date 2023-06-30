@@ -1,0 +1,33 @@
+html, body {
+  padding: 0;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background: #0A0A27;
+}
+.password1
+{
+    text-align: center;
+    margin: 110px 50px 20px;
+.p1
+{
+  color: aqua;
+}
+}
+input
+{
+  width: 80%;
+  padding: 8px 20px;
+  border-radius: 25px;
+  color: rgb(9, 43, 43);
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  text-align: center;
+  
+
+}
+input[type=text]:focus {
+
+}
+
+

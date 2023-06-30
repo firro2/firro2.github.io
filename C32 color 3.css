@@ -1,0 +1,12 @@
+body
+{
+    background-color: rgb(8, 19, 39);
+    font-size: 2px;
+
+}
+html, body {
+    padding: 0;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}

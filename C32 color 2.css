@@ -1,0 +1,20 @@
+body
+{
+    background-color: black;
+    background-image: url(background.png);
+    font-size: 80px;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #ffffff;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+audio
+{
+    margin: 100px 100px 100px;
+}

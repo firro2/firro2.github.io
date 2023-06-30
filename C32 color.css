@@ -1,0 +1,29 @@
+
+html, body {
+    padding: 0;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    background: #0A0A27;
+}
+
+
+
+body
+{
+    background-color: rgb(0, 0, 0);
+    
+}
+.password1
+{
+    text-align: center;
+    margin: 110px 50px 20px;
+
+}
+.Icon
+{
+ 
+ text-align: center;
+ margin: 210px 0px 0px;
+}
+

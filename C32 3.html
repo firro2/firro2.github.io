@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <link rel="stylesheet" href="C32 color 3.css">
+  <meta charset="utf-8">
+  <title>???</title>
+ </head>
+ <body>
+   <p>
+    блеск обусловлен зеркальным отражением света от Поверхности, большей частью происходящим одновременно
+    <br> с диффузным отражением. Глаз человека воспринимает зеркаЛьное отражение совместно с диффузным. Количественная оценка блеска определяется соотношением между интенсивностЯми зеркально и диффузно отражённого света. В минералогии блеск характеризуется качественными признаками (блеск минералов).
+    Субъективно блеск зависит не только от гладкости поверхности, но и от коэффициента отраЖения.
+   </p>
+<!-- partial:index.partial.html -->
+<css-doodle>
+  <style>
+    @grid: 20 / 60vmin;
+
+    background: black;
+    scale: 0;
+    opacity: 0;
+    animation: m 6s linear infinite;
+    
+    animation-delay: calc(
+      -1s/@I * @i * @sin(@i)
+    );
+
+    @keyframes m {
+      0%, 50%, 90% { scale: 0.8; opacity: 1 }
+      25%, 75%, 100% { scale: 0.2; opacity: 0 }
+    }
+  </style>
+ </css-doodle>
+<!-- partial -->
+  <script src='https://unpkg.com/css-doodle@0.29.1/css-doodle.min.js'></script>
+
+
+
+
+
+
+
+
+ </body>
+</html>

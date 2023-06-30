@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>???</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="C32 script.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<css-doodle>
+  <style>
+    @grid: 20 / 60vmin;
+
+    background: #17acda;
+    scale: 0;
+    opacity: 0;
+    animation: m 6s linear infinite;
+    
+    animation-delay: calc(
+      -1s/@I * @i * @sin(@i)
+    );
+
+    @keyframes m {
+      0%, 50%, 90% { scale: 0.8; opacity: 1 }
+      25%, 75%, 100% { scale: 0.2; opacity: 0 }
+    }
+  </style>
+ </css-doodle>
+<!-- partial -->
+  <script src='https://unpkg.com/css-doodle@0.29.1/css-doodle.min.js'></script>
+
+<div class="password1">
+<form onsubmit="return checkPassword()">
+  <input class="colorpas" type="password" id="password" maxlength="12"  />
+</form>
+</div>
+
+</body>
+</html>
